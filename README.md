@@ -1,4 +1,11 @@
+-- ============================================================
+-- Company Employees Database
+-- 30 dummy workers with deliberately intertwined attributes:
+-- several share age, first name, position, salary, or year_of_entry
+-- (but never all attributes at once) so the data isn't neatly grouped.
+-- ============================================================
 
+DROP DATABASE IF EXISTS company_db;
 CREATE DATABASE company_db;
 USE company_db;
 
